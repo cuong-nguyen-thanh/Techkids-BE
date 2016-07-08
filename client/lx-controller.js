@@ -14,7 +14,7 @@ function($scope, $state, $stateParams){
   $scope.add = function() {
     $state.go("add-girl");
   }
-  
+
   $scope.delete = function(index) {
     $scope.data.splice(index, 1);
     $scope.fetchData();
