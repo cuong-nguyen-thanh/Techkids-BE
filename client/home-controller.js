@@ -11,18 +11,44 @@ function($scope, $state, $stateParams){
       age: 22,
       facebook: "Ha San",
       password: "bananhtung1"
+    },
+    {
+      name: "Ha",
+      age: 22,
+      facebook: "Ha San",
+      password: "bananhtung1"
+    },
+    {
+      name: "XXX",
+      age: 22,
+      facebook: "XXX",
+      password: "XXX"
+    },
+    {
+      name: "YYY",
+      age: 22,
+      facebook: "YYY",
+      password: "YYY"
+    },
+    {
+      name: "XXX",
+      age: 22,
+      facebook: "XXX",
+      password: "XXX"
+    },
+    {
+      name: "YYY",
+      age: 22,
+      facebook: "YYY",
+      password: "YYY"
     }
   ];
 
   if ($stateParams.girl) {
-    $scope.girls.push($stateParams.girl);
-  }
-
-  $scope.delete = function(index) {
-    $scope.girls.splice(index, 1);
-  }
-
-  $scope.add = function() {
-    $state.go("add-girl");
+    if ($stateParams.index != -1) {
+      $scope.girls[$stateParams.index] = $stateParams.girl;
+    } else {
+      $scope.girls.push($stateParams.girl);
+    }
   }
 }]);

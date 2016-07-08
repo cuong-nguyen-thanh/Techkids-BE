@@ -7,13 +7,20 @@ myAngular.config(function($stateProvider, $urlRouterProvider){
     url: "/home",
     templateUrl: "templates/home.html",
     controller: "HomeController",
-    params: {girl: null}
+    params: {girl: null, index: -1}
   });
 
   $stateProvider.state('add-girl', {
     url: "/add-girl",
     templateUrl: "templates/add-girl.html",
-    controller: "LXController"
+    controller: "GirlController"
+  });
+
+  $stateProvider.state('update-girl', {
+    url: "/update-girl",
+    templateUrl: "templates/add-girl.html",
+    controller: "GirlController",
+    params: {girl: null, index: -1}
   });
 
   $stateProvider.state('about-us', {
@@ -23,12 +30,14 @@ myAngular.config(function($stateProvider, $urlRouterProvider){
 
 });
 
-myAngular.directive("techkids", [function(){
+myAngular.directive("lx", [function(){
   return {
-    restrict: "A",
-    templateUrl: "templates/techkids.html",
-    link : function(scope, element, attrs) {
-      // console.log(element.getElementsByTagName('H1'));
-    }
+    restrict: "E",
+    scope: {
+      page: "=",
+      size: "="
+    },
+    templateUrl: "templates/lx.html",
+    controller: "LXController"
   }
-}])
+}]);

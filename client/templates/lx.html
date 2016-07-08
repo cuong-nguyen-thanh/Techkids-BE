@@ -1,6 +1,5 @@
-<h1>Hot Girls Techkids</h1>
-<lx page="1" size="5"></lx>
-<!-- <table border="1" style="width:100%;">
+<input type="button" value="Add" ng-click="add()">
+<table border="1" style="width:100%;">
   <tr>
     <th>Name</th>
     <th>Age</th>
@@ -15,4 +14,5 @@
     <td>{{girl.password}}</td>
     <td><input type="button" value="Delete" ng-click="delete($index)"><input type="button" value="Update" ng-click="update(girl, $index)"></td>
   </tr>
-</table> -->
+</table>
+<div class="pagination" ng-class="{'pagination--active' : n === page}" ng-repeat="n in pages" ng-click="goToPage(n)">{{n}}</div>
