@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/cuong-nguyen-thanh/Techkids-BE",
+  "authors": [
+    "Cuong Nguyen <cuong.nguyen@niteco.se>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.7"
+  }
+}

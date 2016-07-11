@@ -1,0 +1,290 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font: 10px/1.4 Tahoma, sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 100px 0 0 0;
+  font-size: 1.4rem;
+  background: #dddddd;
+  color: #2e2e2e;
+}
+
+.page_wrapper{
+  max-width: 980px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+header{
+  background: #ffffff;
+  padding: 15px 0;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.search_wrapper{
+  width: 200px;
+  height: 35px;
+  float: left;
+  position: relative;
+  color: #cecece;
+}
+
+.search_wrapper input[type="text"]{
+  display: block;
+  width: 100%;
+  border: 1px solid #ECECEC;
+  font-size: 1.2rem;
+  padding: 9px;
+  line-height: 15px;
+}
+
+.header_icon_search{
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 10px;
+}
+
+.logo{
+  text-align: center;
+  vertical-align: middle;
+  color: #00a0c6;
+  font-weight: 100;
+  font-size: 2.1rem;
+}
+
+.logo *{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.profile_wrapper{
+  float: right;
+  height: 35px;
+  width: 230px;
+  border: 1px solid #ECECEC;
+  color: #cecece;
+}
+
+.profile_wrapper > .btn_header{
+  border-right: 1px solid #ECECEC;
+}
+
+.btn_header{
+  border: 0 none;
+  outline: 0 none;
+  background: transparent;
+  font-size: 17px;
+  line-height: 31px;
+  width: 35px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  color: #cecece;
+}
+
+.btn_header:hover,
+.btn_header.active{
+  background: #00a0c6;
+  color: white;
+}
+
+.header_username{
+  padding: 0 21px;
+  line-height: 33px;
+}
+
+
+.thumbnail_item{
+  width: 220px;
+  background: #ffffff;
+}
+
+.thumbnail_image_wrapper{
+  position: relative;
+}
+
+.thumbnail_image_wrapper img{
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.thumbnail_overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.thumbnail_image_wrapper:hover .thumbnail_overlay{
+  display: block;
+}
+
+.btn_thumbnail .fa{
+  display: inline-block;
+  font-size: 2rem;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.btn_thumbnail:hover .fa{
+  color: #000000;
+  background: #ffffff;
+  opacity: 0.8;
+}
+
+.btn_add{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.thumbnail_info{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+.thumbnail_info span{
+  display: inline-block;
+  width: 30%;
+}
+
+.thumbnail_info .fa{
+  display: inline-block;
+  font-size: 2rem;
+  color: #ffffff;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.original_poster{
+  overflow: auto;
+  padding: 15px 20px;
+}
+
+.user_avatar{
+  border-radius: 100%;
+  float: left;
+}
+
+.user_avatar_big{
+  width: 40px;
+  margin-right: 20px;
+}
+.original_poster h4{
+  margin: 0;
+  font-size: 1.8rem;
+}
+.original_poster p{
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.item_content{
+  padding: 0 20px 20px 20px;
+}
+
+.endless_loader{
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.endless_loader:before,
+.endless_loader:after{
+  content: "";
+  height: 2px;
+  display: block;
+  flex: 1 0 30%;
+  background: #a1a1a1;
+}
+
+.loader_dots{
+  white-space: nowrap;
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 0 10%;
+  font-size: 0;
+}
+
+.loader_dot{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  border-radius: 100%;
+  background: #777777;
+  opacity: 0;
+  animation: loader_dot 1.2s ease-in-out infinite alternate;
+  vertical-align: middle;
+}
+
+.loader_dot:nth-child(1){
+  animation-delay: 0s;
+}
+.loader_dot:nth-child(2){
+  animation-delay: .3s;
+}
+.loader_dot:nth-child(3){
+  animation-delay: .6s;
+}
+
+@keyframes loader_dot {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes loader_dot {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

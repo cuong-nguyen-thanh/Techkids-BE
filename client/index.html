@@ -2,12 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="libs/angular.min.js"></script>
-    <script src="libs/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/app.css" />
     <title>Angular App</title>
   </head>
   <body ng-app="myAngular">
+      <navbar></navbar>
       <div ui-view></div>
       <script src="app.js"></script>
       <script src="home-controller.js"></script>

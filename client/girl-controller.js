@@ -1,5 +1,5 @@
-myAngular.controller("GirlController", ["$scope", "$state", "$stateParams",
-function($scope, $state, $stateParams){
+myAngular.controller("GirlController", ["$scope", "$state", "$stateParams", "$http",
+function($scope, $state, $stateParams, $http){
   $scope.girl = {};
   $scope.index = -1;
   if ($stateParams.girl) {
@@ -11,7 +11,10 @@ function($scope, $state, $stateParams){
   }
 
   $scope.addOrUpdate = function() {
-      $state.go("home", { girl: $scope.girl, index: $scope.index});
+      $http.post("/api/hot-girl", {girl: $scope.girl}).then(function(response){
+        console.log("add sucessfully!");
+        $state.go("home");
+      })
   }
 
   $scope.cancel = function() {

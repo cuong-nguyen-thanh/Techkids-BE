@@ -1,6 +1,11 @@
-myAngular.controller("LXController", ["$scope", "$state", "$stateParams",
-function($scope, $state, $stateParams){
-  $scope.data = $scope.$parent.girls;
+myAngular.controller("LXController", ["$scope", "$state", "$stateParams", "$http",
+function($scope, $state, $stateParams, $http){
+  $scope.data = [];
+
+  $http.get("/api/hot-girl").then(function(response){
+    $scope.data = response.data;
+    $scope.goToPage($scope.page);
+  });
 
   $scope.fetchData = function(){
       $scope.girls = $scope.data.slice(($scope.page - 1) * $scope.size, $scope.page * $scope.size);
@@ -28,6 +33,4 @@ function($scope, $state, $stateParams){
   for (var n = 0; n < Math.ceil($scope.data.length/$scope.size); n++) {
     $scope.pages[n] = n + 1;
   };
-
-  $scope.goToPage($scope.page);
 }]);
