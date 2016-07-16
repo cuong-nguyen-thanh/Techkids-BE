@@ -25,7 +25,7 @@ myAngular.config(function($stateProvider, $urlRouterProvider){
 
   $stateProvider.state('about-us', {
     url: "/about-us",
-    templateUrl: "templates/about-us.html"
+    templateUrl: "templates/test.html"
   });
 
   // $locationProvider.html5Mode(true);

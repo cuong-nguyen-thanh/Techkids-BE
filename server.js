@@ -1,21 +1,5 @@
 'use strict';
 
-// // Setup server
-// var express = require('express');
-// var path = require('path');
-//
-// var app = express();
-// app.use(express.static(__dirname + '/client'))
-// app.route('/*')
-//     .get((req, res) => {
-//       res.sendFile(path.join(__dirname, '/client/index.html'));
-//     });
-//
-// app.listen(1337, function () {
-//   console.log('Example app listening on port 1337!');
-// });
-
-
 // Khoi tao
 var express = require('express');
 var app = express();
@@ -49,6 +33,20 @@ app.route('/api/hot-girl')
      }
      response.end("success");
    })
+   .put(function(request, response){
+     if (request.body.girl) {
+       console.log("PUT");
+       console.log(request.body.girl);
+     }
+     response.end("success");
+   })
+   .delete(function(request, response){
+     if (request.query.id) {
+       console.log("Delete");
+       console.log(request.query.id);
+     }
+     response.end("success");
+   });
 
 app.route('/*')
     .get(function(req, res) {

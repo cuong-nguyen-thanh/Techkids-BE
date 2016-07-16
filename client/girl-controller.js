@@ -20,4 +20,12 @@ function($scope, $state, $stateParams, $http){
   $scope.cancel = function() {
     $state.go("home");
   }
+
+  // $http.put("/api/hot-girl", {girl: {name:"test"}}).then(function(response){
+  //   console.log("put sucessfully!");
+  // })
+
+  $http.delete("/api/hot-girl?id=1").then(function(response){
+    console.log("put sucessfully!");
+  })
 }]);

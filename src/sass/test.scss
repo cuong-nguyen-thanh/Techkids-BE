@@ -1,0 +1,21 @@
+$padding: 100px;
+
+.home {
+  padding: $padding/2;
+  border: 1px solid grey;
+  &__title {
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__table {
+    width: 100%;
+
+
+    &__row {
+      color: red;
+    }
+  }
+}

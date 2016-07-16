@@ -1,0 +1,12 @@
+.home {
+  padding: 50px;
+  border: 1px solid grey; }
+  .home__title {
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold; }
+  .home__table {
+    width: 100%; }
+    .home__table__row {
+      color: red; }
