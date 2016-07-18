@@ -1,0 +1,15 @@
+.page-block{
+	padding: 40px 20px;
+}
+
+.img-block{
+	background-size: cover;
+}
+
+.banner-block
+
+@media(min-width: 1000px){
+	.page-block{
+		padding: 40px 220px;
+	}
+}

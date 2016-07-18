@@ -1,0 +1,111 @@
+.header{
+	background: #2d2d2d;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.logo{
+	display: inline-block;
+}
+.nav-button{
+	float: right;
+}
+
+.header-nav-mobile{
+	display: block;
+}
+
+.nav-button{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nav-button div{
+	background: #ffffff;
+	width: 44px;
+	height: 6px;
+}
+
+.nav-button div:nth-child(2){
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	background: #ffffff;
+}
+
+.dropdown-menu li{
+	padding: 10px 20px;
+	display: block;
+}
+
+.dropdown-menu a{
+	color: #000000;
+	font-weight: 700;
+	font-size: 1.8rem;
+}
+
+.dropdown-menu li:hover{
+	background: #fdb818;
+}
+
+.dropdown-menu li:hover a{
+	color: #ffffff;
+}
+
+.dropdown-menu img{
+	width: 35px;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+.dropdown-menu.active{
+	display: block;
+}
+
+.header-nav-desktop{
+	display: none;
+}
+.header-nav-desktop img{
+	vertical-align: middle;
+}
+.header-nav-desktop ul{
+	float: right;
+	margin-left: 20px;
+}
+.header-nav-desktop li{
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+.header-nav-desktop a{
+	color: #ffffff;
+	font-size: 1.8rem;
+}
+
+.header-nav-desktop a:hover,
+.header-nav-desktop a:active{
+	color: #fdb818;
+}
+
+
+@media(min-width: 1000px){
+	.header{
+		padding: 10px 40px 10px 220px;
+	}
+
+	.header-nav-mobile{
+		display: none;
+	}
+
+	.header-nav-desktop{
+		display: block;
+	}
+
+}

@@ -1,0 +1,1043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pis",
+				"position"
+			],
+			[
+				"20px",
+				"20px"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"da",
+				"date_created"
+			],
+			[
+				"de",
+				"job_description"
+			],
+			[
+				"job",
+				"job_title"
+			],
+			[
+				"jo",
+				"job_description"
+			],
+			[
+				"j",
+				"job_description"
+			],
+			[
+				"ge",
+				"getJob"
+			],
+			[
+				"J",
+				"JobListStore"
+			],
+			[
+				"s",
+				"sst	React: this.setState(…)"
+			],
+			[
+				"T",
+				"TodoActions"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"nw",
+				"newList"
+			],
+			[
+				"new",
+				"newList"
+			],
+			[
+				"con",
+				"connect"
+			],
+			[
+				"ne",
+				"newList"
+			],
+			[
+				"dis",
+				"dispatch"
+			],
+			[
+				"joblist",
+				"joblist"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"d",
+				"dispatch"
+			],
+			[
+				"get",
+				"getAll"
+			],
+			[
+				"g",
+				"getAllJob"
+			],
+			[
+				"a",
+				"axios"
+			],
+			[
+				"Jo",
+				"JobListAction"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"D",
+				"dispatcher"
+			],
+			[
+				"Ji",
+				"JobListComponent"
+			],
+			[
+				"Job",
+				"JobListStore"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"btn",
+				"btn-sm"
+			],
+			[
+				"Com",
+				"Companies"
+			],
+			[
+				"com",
+				"company_name"
+			],
+			[
+				"COm",
+				"Company"
+			],
+			[
+				"collap",
+				"collapse"
+			],
+			[
+				"coll",
+				"collapsed"
+			],
+			[
+				"co",
+				"companies"
+			],
+			[
+				"Comp",
+				"companies"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ar",
+				"archives"
+			],
+			[
+				"rea",
+				"react-dom"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"pro",
+				"props	React: this.props."
+			],
+			[
+				"fi",
+				"filterList"
+			],
+			[
+				"sS",
+				"sst	React: this.setState({ ... })"
+			],
+			[
+				"i",
+				"incresementCount"
+			],
+			[
+				"po",
+				"props	React: this.props."
+			],
+			[
+				"pr",
+				"props	React: this.props."
+			],
+			[
+				"p",
+				"props	React: this.props."
+			],
+			[
+				"r",
+				"ren	React: render: fn() { return ... }"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"loa",
+				"loadSinglePage"
+			],
+			[
+				"pop",
+				"popup_window"
+			],
+			[
+				"f",
+				"fadeIn"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"muc",
+				"muc_4"
+			],
+			[
+				"mu",
+				"muc_5"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"onKey",
+				"onkeyup	Attr"
+			],
+			[
+				"tinh",
+				"tinhtong"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"lo",
+				"loop	Attr"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"submi",
+				"submit-button"
+			],
+			[
+				"form",
+				"formSubmit"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"trans",
+				"transform-origin"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"P",
+				"placeholder	Attr"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
+				"hed",
+				"header	Tag"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"e",
+				"empty"
+			],
+			[
+				"ca",
+				"captcha"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"me",
+				"meta	Tag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/hoangdoan/MiniHackathon/index.html",
+			"settings":
+			{
+				"buffer_size": 2274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hoangdoan/MiniHackathon/libs/css/style.css",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hoangdoan/MiniHackathon/libs/css/sample.css",
+			"settings":
+			{
+				"buffer_size": 354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hoangdoan/MiniHackathon/libs/css/navbar.css",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hoangdoan/MiniHackathon/libs/js/script.js",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 376.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package",
+			"install Babel",
+			"babel",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"babel",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hoangdoan/MiniHackathon",
+		"/Users/hoangdoan/MiniHackathon/libs/css",
+		"/Users/hoangdoan/MiniHackathon/libs/img"
+	],
+	"file_history":
+	[
+		"/Users/hoangdoan/Desktop/HRC/index.html",
+		"/Users/hoangdoan/Desktop/HRC/css/stylesheet.css",
+		"/Users/hoangdoan/MiniHackathon/libs/css/sample.css",
+		"/Users/hoangdoan/MiniHackathon/index.html",
+		"/Users/hoangdoan/MiniHackathon/libs/css/style.css",
+		"/Users/hoangdoan/MiniHackathon/libs/css/navbar.css",
+		"/Users/hoangdoan/Desktop/test.html",
+		"/Users/hoangdoan/react-js-tutorials/3-flux/src/js/stores/TodoStore.js",
+		"/Users/hoangdoan/react-js-tutorials/3-flux/src/js/pages/Todos.js",
+		"/Users/hoangdoan/Desktop/react-router/src/index.html",
+		"/Users/hoangdoan/Desktop/react-router/src/js/dispatcher.js",
+		"/Users/hoangdoan/Desktop/react-router/package.json",
+		"/Users/hoangdoan/Desktop/react-router/src/js/stores/JobListStore.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/components/Job.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Companies.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Jobs.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/components/Company.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Layout.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Dashboard.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/components/Article.js",
+		"/Users/hoangdoan/react-js-tutorials/2-react-router/src/js/client.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/client.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/components/layout/Nav.js",
+		"/Users/hoangdoan/Desktop/react-router/src/css/style.css",
+		"/Users/hoangdoan/Desktop/react-basic/src/css/style.css",
+		"/Users/hoangdoan/Desktop/react-basic/src/index.html",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Archives.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Setting.js",
+		"/Users/hoangdoan/Desktop/react-router/src/js/pages/Featured.js",
+		"/Users/hoangdoan/react-js-tutorials/2-react-router/package.json",
+		"/Users/hoangdoan/Desktop/react-study/src/index.html",
+		"/Users/hoangdoan/Desktop/react-study/src/js/components/Layout.js",
+		"/Users/hoangdoan/Desktop/react-study/src/js/components/Footer.js",
+		"/Users/hoangdoan/Desktop/react-study/src/js/components/Header/Title.js",
+		"/Users/hoangdoan/Desktop/react-study/src/js/components/Header.js",
+		"/Users/hoangdoan/Desktop/react-study/src/js/client.js",
+		"/Users/hoangdoan/Desktop/react-study/src/js/components/layout.js",
+		"/Users/hoangdoan/Desktop/react-study/webpack.config.js",
+		"/Users/hoangdoan/Desktop/react-study/src/client.min.js",
+		"/Users/hoangdoan/Desktop/react-study/package.json",
+		"/Users/hoangdoan/react-js-tutorials/1-basic-react/package.json",
+		"/Users/hoangdoan/Desktop/reactJS/test.jsx",
+		"/Users/hoangdoan/Desktop/reactJS/react-15.1.0/examples/basic-commonjs/index.js",
+		"/Users/hoangdoan/Downloads/react-15.1.0/examples/basic-commonjs/index.js",
+		"/Users/hoangdoan/Desktop/reactJS/react-15.1.0/examples/webcomponents/index.html",
+		"/Users/hoangdoan/Desktop/reactJS/bundle.js",
+		"/Users/hoangdoan/Desktop/reactJS/main.js",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/register.html",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/stylesheet.css",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/fucking_menu.html",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/WebFullstack 1.0/letter.html",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/WebFullstack 1.0/cv.html",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/WebFullstack 1.0/style.css",
+		"/Users/hoangdoan/Desktop/WebFullstack 1.0/stlye.css",
+		"/Users/hoangdoan/kittyproject/node_modules/concurrently/node_modules/lodash/parseInt.js",
+		"/Users/hoangdoan/kittyproject/public/Summer Camp/index.html",
+		"/Users/hoangdoan/Desktop/HRC/slick/slick.css",
+		"/Users/hoangdoan/Desktop/HRC/css/loader.css",
+		"/Users/hoangdoan/Desktop/HRC/css/rolling.css",
+		"/Users/hoangdoan/Desktop/HRC/js/main.js",
+		"/Users/hoangdoan/Desktop/HRC/css/squares.css",
+		"/Users/hoangdoan/awesome-test/index.html",
+		"/Users/hoangdoan/awesome-test/server.js",
+		"/Users/hoangdoan/awesome-test/package.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"220px",
+			"id",
+			"connect",
+			"}\n",
+			"Company",
+			"}",
+			");\n	}\n}",
+			"\n	}\n}",
+			"	}\n}",
+			"}\n",
+			"Title",
+			"popup",
+			"overflow",
+			"btn_add",
+			"btn",
+			"icon",
+			"pin",
+			"h1",
+			"fa",
+			"btn_add",
+			"transform",
+			".thumbnail_overlay",
+			"hover",
+			"();\n",
+			"active",
+			"order",
+			";\n",
+			"input",
+			"index",
+			"layout.css",
+			"layout",
+			"spy",
+			"form",
+			"input",
+			"#fff",
+			"form",
+			"min-width",
+			"cùng",
+			"summ",
+			"80px",
+			"30px",
+			"200px",
+			"40px",
+			"200px",
+			"ul-",
+			"form",
+			"50px",
+			"200px",
+			"form",
+			"position",
+			"form",
+			"dropdown-menu",
+			"btn",
+			"btn-home",
+			"flex",
+			"00a0c6",
+			"techkids",
+			"background-size",
+			"white_bg",
+			"white_",
+			"white-",
+			"white-bg",
+			"white-block",
+			"page_block",
+			"header",
+			"55",
+			"logo",
+			"menu-button",
+			"active",
+			"nav",
+			"table",
+			"td",
+			"min",
+			"table",
+			"min-w",
+			"min",
+			"td",
+			"table",
+			"h5",
+			"scc_table",
+			"howto_steps",
+			"table",
+			"scc_tabs",
+			"howtojoin",
+			"how",
+			"min",
+			"title",
+			"scc_tabs",
+			"scc_tab",
+			"scc_block",
+			"min",
+			"benefit_block",
+			"register",
+			"page_block",
+			"register",
+			"register_form",
+			"form",
+			"from",
+			";\n",
+			"modal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_id",
+			"16px",
+			"6px",
+			"7.5px",
+			"40px",
+			"8px",
+			"40px",
+			"8.25px",
+			"33px",
+			"dropdown-button"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/hoangdoan/MiniHackathon/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2163,
+								2163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/hoangdoan/MiniHackathon/libs/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/hoangdoan/MiniHackathon/libs/css/sample.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 235.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/hoangdoan/MiniHackathon/libs/css/navbar.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1191,
+								1191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/hoangdoan/MiniHackathon/libs/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "minihome.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pi",
+				"kittyproject/node_modules/concurrently/node_modules/lodash/parseInt.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
